@@ -1,0 +1,47 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Debug Member Application",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "turbo dev",
+            "cwd": "${workspaceFolder}/apps/members"
+        },
+        {
+            "name": "Debug Clinician Application",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "turbo dev",
+            "cwd": "${workspaceFolder}/apps/clinicians"
+        },
+        {
+            "name": "Debug Back Office Application",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "turbo dev",
+            "cwd": "${workspaceFolder}/apps/back-office"
+        },
+        {
+            "name": "Debug EAP Application",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "turbo dev",
+            "cwd": "${workspaceFolder}/apps/eap-partners"
+        },
+        {
+            "name": "Debug Package Data",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "turbo dev",
+            "cwd": "${workspaceFolder}/packages/data"
+        },
+        {
+            "name": "Debug Package UI",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "turbo dev",
+            "cwd": "${workspaceFolder}/packages/ui"
+        }
+    ]
+}

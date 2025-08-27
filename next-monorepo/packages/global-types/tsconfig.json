@@ -1,0 +1,29 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "declaration": true,
+    "importHelpers": true,
+    "allowJs": true,
+    "module": "ESNext",
+    "rootDir": "src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["ESNext", "DOM"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "pretty": true,
+    "removeComments": false,
+    "outDir": "build",
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "es2018",
+    "useUnknownInCatchVariables": false,
+    "strict": true
+  },
+  "exclude": ["**/bin/**/*", "**/__tests__/**/*", "node_modules/**/*", ".serverless/**/*", ".webpack/**/*", "_warmup/**/*", ".vscode/**/*", "build"]
+}
